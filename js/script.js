@@ -1,0 +1,1 @@
+var func=function(n){for(var e=[],r=0;r<n.length-1;r+=1)e.push(new Array(n[r].name,n[r].value));var a=e.reduce(function(n,e){return n[e[0]]=e[1],n},{}),u=0;for(x in a)document.getElementsByTagName("span")[u].innerHTML=a[x],u++};
